@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /*background-size: cover; */
+}
+.text-input {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}
+
+.card {
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
